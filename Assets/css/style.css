@@ -32,9 +32,8 @@ body {
     border-width: medium;
 }
 .my-col{
-    border-style: solid;
-    border-color: aqua;
-    border-width: medium;
+    border: medium solid black;
+    
 }
 
 .inner_header{
@@ -50,7 +49,7 @@ body {
     float: left;
 }
 
-.myname h1{
+#logoname {
     color: white;
     height: 100%;
     display: table-cell;
@@ -155,9 +154,12 @@ div.container {
 /* container end */
 
 /* contact start */
-#connect {float: right;}
+#connect {
+    float: right
+    
+}
 input[type=text], select, textarea {
-    width: 960px; 
+    width: 600px; 
     padding: 12px;  
     border: 1px solid #dddddd; 
     box-sizing: border-box; 
